@@ -1,0 +1,34 @@
+.intro {
+    color: black;
+    background-color: #fbedcd;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.hero {
+    background-color: #fff;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-img {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.img-container {
+    display: inline-flex;
+    flex-direction: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
