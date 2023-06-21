@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Rice Krispies",
+      "name": "Rice Krispie",
       "category": "food",
       "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/RKTsquares.jpg",
       "source": "https://en.wikipedia.org/wiki/Rice_Krispies_Treats",
@@ -56,11 +56,11 @@
     },
     {
       "id": 7,
-      "name": "Striped Socks",
+      "name": "Messi's Left Foot",
       "category": "clothing",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bulk_tube_socks.png",
+      "image": "https://ca-times.brightspotcdn.com/dims4/default/46bc771/2147483647/strip/true/crop/600x395+0+0/resize/1200x790!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ffc%2F67%2F1bbadae80a9e8113670b16dc1db2%2Fla-xpm-photo-2013-mar-07-sp-sn-messi-foot-gold-20130307",
       "source": "https://commons.wikimedia.org/wiki/File:Bulk_tube_socks.png",
-      "description": "Because the dryer ate most of your socks and it never hurts to have another clean pair.",
+      "description": "The most expensive foot of all time. Insured for over a billion dollars. Replica sold for a low price of 5 dollars.",
       "price": 4.99
     },
     {

@@ -11,6 +11,8 @@ const ProductCard = ({product, showDescription}) => {
       </Link>
       <h2>{product.name}</h2>
       <h3>${product.price}</h3>
+      <button>+</button>
+      <button>-</button>
 
       {showDescription ? 
              <p className = "product-description">{product.description}</p>: null}

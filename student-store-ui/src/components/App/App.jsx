@@ -20,7 +20,7 @@ let [products,setProducts] = useState([])
 
   useEffect(() => {
     
-      axios.get('https://codepath-store-api.herokuapp.com/store').then((response) => {
+      axios.get('http://localhost:3001/store').then((response) => {
         setProducts(response.data.products);
         // console.log("here"); 
       })
@@ -35,6 +35,7 @@ let [products,setProducts] = useState([])
         <main>
           {/* YOUR CODE HERE! */}
           <Navbar />
+          <Sidebar></Sidebar>
           <Routes>
           <Route path = "/products/:productId" element = {<ProductDetail></ProductDetail>}></Route>
           <Route path = "/" element = {<Home products = {products} />}></Route>

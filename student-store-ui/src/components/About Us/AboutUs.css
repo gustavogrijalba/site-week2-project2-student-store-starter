@@ -20,7 +20,8 @@
 }
 
 .about {
-    margin: 0 auto;
+    margin-top: 55px;
+    margin: auto;
     display: flex;
     flex-direction: row;
     padding: 15px;
