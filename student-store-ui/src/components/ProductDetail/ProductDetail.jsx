@@ -2,9 +2,8 @@ import React, { useEffect, useState } from 'react'
 import "./ProductDetail.css"
 import { useParams } from 'react-router-dom'
 import ProductView from "../ProductView/ProductView"
-import axios
- from 'axios'
-const ProductDetail = () => {
+import axios from 'axios'
+const ProductDetail = ({handleAddItem,handleRemoveItem, shoppingCart}) => {
 
   const [product, setProducts] = useState([])
   const {productId} = useParams()
@@ -21,7 +20,10 @@ const ProductDetail = () => {
 
   return (
     <div className = "product-detail">
-      <ProductView product = {product} productId = {productId} showDescription = {showDescription}/>
+      <ProductView product = {product} productId = {productId} showDescription = {showDescription} 
+      handleAddItem={handleAddItem}
+      handleRemoveItem={handleRemoveItem}
+      shoppingCart={shoppingCart}/>
       </div>
   )
 }

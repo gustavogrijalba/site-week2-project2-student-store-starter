@@ -3,12 +3,15 @@ import ProductCard from '../ProductCard/ProductCard'
 import { Link } from 'react-router-dom'
 import { useParams } from 'react-router-dom'
 
-const ProductView = ({product, productId, showDescription}) => {
+const ProductView = ({product, showDescription, handleAddItem, handleRemoveItem, shoppingCart}) => {
 
   return (
     <div className = "product-view">
-      <h1 className = "product-id">Product #: {productId}</h1>
-      <ProductCard product = {product} productId={productId} showDescription = "true"/>
+      <h1 className = "product-id">Product #: {product.id}</h1>
+      <ProductCard product = {product}  showDescription = "true" 
+      handleAddItem={handleAddItem} 
+      handleRemoveItem={handleRemoveItem}
+      shoppingCart={shoppingCart}/>
       </div>
   )
 }

@@ -9,7 +9,7 @@ import AboutUs from "../About Us/AboutUs"
 import Footer from "../Footer/Footer"
 import ContactUs from "../ContactUs/ContactUs"
 
-export default function Home({products}) { 
+export default function Home({products, handleAddItem, shoppingCart, handleRemoveItem}) { 
 
   const [searchItem, setSearchItem] = useState("")
   const [activeCategory, setActiveCategory] = useState("")
@@ -27,7 +27,7 @@ export default function Home({products}) {
       <Hero/>
       <Search searchItem = {searchItem} handleSearchItem = {handleSearchItem}/>
       <SubNavBar  handleUpdateCategory = {handleUpdateCategory}/>
-      <ProductGrid products = {products} searchItem = {searchItem} activeCategory={activeCategory}/>
+      <ProductGrid products = {products} searchItem = {searchItem} activeCategory={activeCategory} handleAddItem = {handleAddItem} shoppingCart = {shoppingCart} handleRemoveItem = {handleRemoveItem} />
       <AboutUs></AboutUs>
       <ContactUs></ContactUs>
       <Footer></Footer>

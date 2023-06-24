@@ -2,21 +2,18 @@
     text-align: center;
 }
 
-button {
-    background-color: transparent;
-    border: none;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px;
-    margin: 5px;
-}
-
 /* //following css lines were taken from w3resources 
 for a button underline animation */
  .hover-underline-animation {
    display: inline-block;
    position: relative;
    cursor: pointer;
+   background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
  }
  
  .hover-underline-animation:after {
